@@ -1,0 +1,41 @@
+.main-container {
+    text-align: center;
+}
+
+body{
+    background-color:#a80000;
+}
+
+.main-container {
+    color: whitesmoke;
+    font-family: Noto Sans JP;
+}
+
+.card {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: solid; background-color: #1f1c08; border-radius: 13px;
+    border-color: gold;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+a {
+    color: lightblue;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
