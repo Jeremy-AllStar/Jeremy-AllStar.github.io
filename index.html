@@ -4,25 +4,48 @@
     <title>Jeremy Amankwah</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
         <header>
             <h1>Jeremy Amankwah</h1>
-            <h4> Welcome To My Website! </h4>
+            <p> Welcome To My Website! </p>
         </header>
 
         <div class="card-container">
             <div class="card">
             <h2>About Me</h2>
                 <p> My name is Jeremy and I am from Bronx, New York. My parents are also from Ghana making me a proud African American.
-                    I enjoy doing lots of things like coding on different languages, playing sports, and just having a great time with friends. I enjoy doing these things because these are what make me the happiest no matter what I am feeling. 
+                    I enjoy doing lots of things like coding on different languages, playing sports, and just having a great time with friends.<span id="dots2">...</span><span id="more2">I enjoy doing these things because these are what make me the happiest no matter what I am feeling. 
                     In the near future I want to find accesss to many internships so I can pursue my dream to become an eletrical engineer. The reason for this is because I want to be a successful black man when I grow up 
                     and in order to do this I know that I will need to work hard as a kid so it can pay off in the future. Although some may make the case that racism has ended, I do not believe it because people 
-                    are still being mistreated even as you read this, I want to achieve a dream of becoming a man who can overcome these challeneges.
+                    are still being mistreated even as you read this, I want to achieve a dream of becoming a man who can overcome these challeneges.</span>
                 </p>
-
+                <button type="button2" id="read2" >Read more</button>
+                <script type="text/javascript">
+                    let i=0;
+                    document.getElementById("read2").onclick = function(){
+                        if(i==0){
+                            document.getElementById("more2").style.
+                                display ="inline";
+                            document.getElementById("dots2").style.
+                                display ="none";
+                            document.getElementById("read2").innerHTML="Read less";
+                            i=1;
+                        }    
+                        else{
+                            document.getElementById("more2").style.
+                                display ="none";
+                            document.getElementById("dots2").style.
+                                display ="inline";
+                            document.getElementById("read2").innerHTML="Read more";
+                            i=0;
+                        }
+                        console.log("Doo");
+                    }
+                </script>
             </div>
             <div class="card">
                 <h2>My Skills</h2>
@@ -39,7 +62,7 @@
                 
                 <button type="button" id="read" >Read more</button>
                 <script type="text/javascript">
-                    let i=0;
+                    let i=5;
                     document.getElementById("read").onclick = function(){
                         if(i==0){
                             document.getElementById("more").style.

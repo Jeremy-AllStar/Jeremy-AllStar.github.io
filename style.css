@@ -19,13 +19,13 @@ body{
     margin-top: 50px;
 }
 
-h4 {
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 80px;
 }
 
-h1 {
-    
+h2 {
+    font-family: 'Lobster', cursive;
 }
 
 p {
@@ -47,11 +47,15 @@ a {
     display: none;
 }
 
+#more2{
+    display: none;
+}
+
 button {
     background-color: black;
     border: none; 
     outline: none;
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 18px;
     padding: 5px;
 }
