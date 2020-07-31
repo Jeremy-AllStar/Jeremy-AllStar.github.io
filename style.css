@@ -59,3 +59,23 @@ button {
     font-size: 18px;
     padding: 5px;
 }
+
+footer a {
+    padding: 10px;
+    font-size: 75px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+}
+
+header p {
+    font-size: 25px;
+}
+
+header span {
+    font-size: 35px;
+    padding-right: 20px;
+    font-family: 'Mulish', sans-serif;
+}
