@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-body{
-    background-color:#a80000;
-}
-
 .main-container {
     color: whitesmoke;
     font-family: Noto Sans JP;
@@ -51,6 +47,10 @@ a {
     display: none;
 }
 
+#more3{
+    display: none;
+} 
+
 button {
     background-color: black;
     border: none; 
@@ -75,7 +75,25 @@ header p {
 }
 
 header span {
-    font-size: 35px;
+    font-size: 25px;
     padding-right: 20px;
     font-family: 'Mulish', sans-serif;
 }
+ a:link {
+    text-decoration: none;
+ }
+
+/*@media(max-width: 600px) {
+    button {
+        font-size: 200px;
+    }
+    header span {
+        font-size: 30px;
+    }
+}*/
+
+#cottage {
+    height: 200px;
+   
+}
+
