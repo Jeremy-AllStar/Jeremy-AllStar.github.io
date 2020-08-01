@@ -8,8 +8,8 @@
 }
 
 .card {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-style: solid; background-color: #1f1c08; border-radius: 13px;
     border-color: gold;
     margin-top: 50px;
@@ -78,22 +78,28 @@ header span {
     font-size: 25px;
     padding-right: 20px;
     font-family: 'Mulish', sans-serif;
-}
- a:link {
-    text-decoration: none;
- }
 
-/*@media(max-width: 600px) {
-    button {
-        font-size: 200px;
-    }
-    header span {
-        font-size: 30px;
-    }
-}*/
+}
+
+a:link {
+    text-decoration: none;
+}
 
 #cottage {
-    height: 200px;
-   
+    width: 50%;
+    position: relative;
 }
 
+@media(max-width: 600px) {
+    button {
+        font-size: 10px;
+    }
+    header span {
+        font-size: 20px;
+    }
+    #cottage {
+        width: 70%;
+        position: relative;
+    }
+        
+}
