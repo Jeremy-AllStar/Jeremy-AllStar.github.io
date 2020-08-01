@@ -88,6 +88,7 @@ a:link {
 #cottage {
     width: 50%;
     position: relative;
+    border-radius: 10px;
 }
 
 @media(max-width: 600px) {
