@@ -62,7 +62,7 @@ button {
 
 footer a {
     padding: 10px;
-    font-size: 75px;
+    font-size: 65px;
     width: 10px;
     text-align: center;
     text-decoration: none;
@@ -86,7 +86,7 @@ a:link {
 }
 
 #cottage {
-    width: 50%;
+    width: 40%;
     position: relative;
     border-radius: 10px;
 }
@@ -104,3 +104,4 @@ a:link {
     }
         
 }
+
