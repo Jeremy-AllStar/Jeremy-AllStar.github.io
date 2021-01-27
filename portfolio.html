@@ -22,7 +22,7 @@
             
          </div>
             <div class="card">
-                <h2>Portfolio</h2>
+                <h2>School Campus Model</h2>
                 <img id="cottage" src="https://voithandmactavish.com/wp-content/uploads/2019/07/church-farm-school-new4-2000x1205.jpg">
                 <p>At my school we were required to make a 3D model of our campus in around three months. To complete this project my group and I used drones to take pictures of the buildings from different angles and uploaded these pictures to a program called MeshMixer.<span id="dots3">...</span><span id="more3"> In MeshMixer we were required to change the pictures into a 3D model, clean up the 
                     object, and fill in any holes. After the 3D models were finalized, we saved them as .STL files so that our 3D printing software would recognize it. Utilizing Prusa Slicer, 
@@ -48,7 +48,39 @@
                             document.getElementById("read3").innerHTML="Read more";
                             x=0;
                         }
-                        console.log("Doo");
+                    }
+                </script>
+            </div>
+
+            <div class="card">
+                <h2>ComWare</h2>
+                <p>ComWare is a website that two friends and myself worked on for around a week;
+                in this website you are able to use you device's location to find nearby restaurants and 
+                crimes in your area.<span id="dots">...</span><span id="more"> The website consists of over 266 lines of HTML
+                and 108  lines of CSS.  </span>
+                </p>
+                
+                <button type="button" id="read" >Read more</button>
+                <script type="text/javascript">
+                    let y=0;
+                    document.getElementById("read").onclick = function(){
+                        if(y==0){
+                            document.getElementById("more").style.
+                                display ="inline";
+                            document.getElementById("dots").style.
+                                display ="none";
+                            document.getElementById("read").innerHTML="Read less";
+                            y=1;
+                        }    
+                        else{
+                            document.getElementById("more").style.
+                                display ="none";
+                            document.getElementById("dots").style.
+                                display ="inline";
+                            document.getElementById("read").innerHTML="Read more";
+                            y=0;
+                        }
+        
                     }
                 </script>
             </div>
